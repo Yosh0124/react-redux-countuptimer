@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import "./Time.css"
 
 class Time extends Component {
@@ -17,11 +17,11 @@ class Time extends Component {
   }
 }
 
-Time.propTypes = {
-  hours: PropTypes.number.isRequired,
-  minutes: PropTypes.number.isRequired,
-  seconds: PropTypes.number.isRequired
-}
+// Time.propTypes = {
+//   hours: PropTypes.number.isRequired,
+//   minutes: PropTypes.number.isRequired,
+//   seconds: PropTypes.number.isRequired
+// }
 
 function mapStateToProps(state) {
   const { countUpTimer } = state

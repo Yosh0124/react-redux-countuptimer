@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import './Button.css'
 
 export default class Button extends Component {
@@ -28,9 +28,9 @@ export default class Button extends Component {
   }
 }
 
-Button.propTypes = {
-  running: PropTypes.bool.isRequired,
-  text: PropTypes.node.isRequired,
-  onClick: PropTypes.func.isRequired,
-  count: PropTypes.number.isRequired
-}
+// Button.propTypes = {
+//   running: PropTypes.bool.isRequired,
+//   text: PropTypes.node.isRequired,
+//   onClick: PropTypes.func.isRequired,
+//   count: PropTypes.number.isRequired
+// }
