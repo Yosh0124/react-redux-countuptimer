@@ -11,3 +11,7 @@ npm install
 ```
 npm start
 ```
+
+# DEMO
+
+[Demo](https://react-redux-countuptimer.herokuapp.com/)
